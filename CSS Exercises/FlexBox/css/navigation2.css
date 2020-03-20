@@ -16,7 +16,7 @@ body{
     background-color: pink;    
     display: flex;
     flex-direction: row;    
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: baseline;  
     align-content: center;
     color:red;  
@@ -27,15 +27,13 @@ body{
     padding:0;   
 }
 
-.menu{
-    justify-content: flex-end;
-}
 
 .flexitem{
+    display: block;
     color:red;
     background-color: pink;
     font-size: 0.75em;
-    padding: 0em;
+    padding: 0.75em;
     align-content: flex-end;
 }
 
