@@ -1,0 +1,39 @@
+*{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    width: 70em;
+    height: 70em;
+    padding: 5em;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 30em;
+    height: 30em;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    padding: 0; 
+    border: 1px dashed darkgrey;
+}
+
+.flexitem{
+    align-content: column;
+    font-size: 0.8em;
+    padding: 2em;
+    border: 0.25em solid palevioletred;
+}
+
+.item2{
+    align-self: center;
+}
+
+.item3{
+    align-self: flex-end;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #eeeeee;
+  }
+  /* -- element selector --*/
+  
+  p {
+    /*
+    border: 1px solid red; 
+    this is a shorthand property (manyin one line)
+    you need more tah one value to make it work
+    */
+    
+    border-width: 2px; 
+    border-color: lightsalmon;
+    border-style: solid;
+    color: grey;
+  }
+  
+  /* -- class selector --*/
+  
+  .big {
+  font-size:150%;
+  }
+  
+  .coral {
+    color: lightcoral;
+    font-family:Arial;
+    font-weight:lighter;
+  }
+  
+  p.coral{
+    color: green;
+    font-family: monospace;
+  }
+  
+  p .coral{
+    font-style: italic;
+    color: blue;
+  }
+  p strong {
+    color: blueviolet;
+  }

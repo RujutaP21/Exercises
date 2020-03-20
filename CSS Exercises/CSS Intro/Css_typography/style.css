@@ -1,0 +1,41 @@
+html{
+    font-family:helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  body{
+    background-color: beige;
+  }
+  
+  article{
+    max-width:500px;
+  }
+  
+  p {
+    /* line-height: 20px; if you put fix unit it would be a problem if you change the size of the typo*/
+    line-height: 150%; 
+    line-height: 1.5; 
+    line-height: 1.5em; 
+    /* relative 150%, 1.5em, 1.5, */
+  }
+  .extra p {
+    color: brown;
+    margin:10px;
+    text-indent: 20px;
+  }
+  
+   p:nth-child(2) {
+    background-color: rgb(139, 121, 50);
+  } 
+   p:nth-child(even) {
+    background-color: rgb(139, 121, 50);
+  } 
+  
+  .extra p:first-child {
+    color: rgb(139, 25, 41);
+    font-weight: bold;
+  }
+  
+  .extra p:first-letter {
+    font-size: 2em;
+  }

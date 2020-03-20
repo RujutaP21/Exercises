@@ -1,0 +1,50 @@
+*{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    max-width: 50%;
+    padding: 5em;    
+}
+
+.flexcontainer{
+    max-width: 400px;
+    padding: 0.5em;
+    background-color: pink;    
+    display: flex;
+    flex-direction: row;    
+    justify-content: flex-start;
+    align-items: baseline;  
+    align-content: center;
+    color:red;  
+}
+
+.logo{
+    height:2.5em ;
+    padding:0;   
+}
+
+.menu{
+    justify-content: flex-end;
+}
+
+.flexitem{
+    color:red;
+    background-color: pink;
+    font-size: 0.75em;
+    padding: 0em;
+    align-content: flex-end;
+}
+
+.title{
+    background-color: red;
+    padding: 0.2em;
+    width: 120px;
+    height: 1.7em;
+    color: white;
+    font-size: 1.5em;
+    align-content: center;
+}

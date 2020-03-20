@@ -1,0 +1,31 @@
+html{
+    font-family:helvetica, sans-serif;
+    font-size: 125%;
+    line-height: 2em;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 2em;
+    color: rgb(69, 15, 90);
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: rgb(107, 7, 7);
+  
+  }
+  
+  h3 {
+    font-size: 1.25em;
+    color: rgb(53, 79, 47);
+  
+  }
+  
+  p {
+    /* font-size: 1em; */
+    font-size: 1rem;
+  }

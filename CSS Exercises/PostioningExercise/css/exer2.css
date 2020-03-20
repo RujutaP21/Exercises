@@ -1,0 +1,23 @@
+main{
+    background-color: lightgrey;
+    max-width: 600px;
+    padding: 1em;
+    align-content: center;
+}
+
+.left{
+    margin: 0;
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    float: left;
+
+}
+
+.right{
+    margin: 0;
+    background-color: yellow;
+    width: 100px;
+    height: 150px; 
+    float: right;
+}

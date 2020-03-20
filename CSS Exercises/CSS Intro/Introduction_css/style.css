@@ -1,0 +1,28 @@
+body {background-color: beige;
+text-align: center;
+font-family: 'Lucida Sans';
+color: blue;
+}
+h1 {
+    font-size: 300%;
+}
+
+p { color: green;
+    text-align: left;
+    border: 1px solid crimson;
+}
+.big {
+    font-size: 200%;
+}
+
+.red {
+    color: darkblue;
+}
+
+p.red {
+    font-style: italic;
+}
+
+p .red {
+  color: black;
+}
